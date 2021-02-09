@@ -25,3 +25,14 @@
      gitk& - look for git history
      git show
      git ls-tree
+
+     git reset --mixed HEAD^
+          git reset --soft HEAD^
+               git reset --hard HEAD^
+
+     git commit --amend -m "commit message"
+     git clean HEAD^^
+
+     git checkout -- file.txt
+     git checkout .
+     git clean -xdf
