@@ -1,0 +1,27 @@
+Основые моменты по настройке git 
+Загрузить гит можно тут: http://git-scm.com/downloads
+
+Устанавливайте гит с настройками по умолчанию.
+
+Генерация пары ssh ключей:
+
+     ssh-keygen -t rsa -C "vitali_shulha@epam.com"
+
+Публичный ключ (id_rsa) нужно отправить владельцу репозитория для получения прав работы. Или загрузить в настройки профиля в bitbucket/github/gitlab
+
+Настройка имени пользователя и емейла:
+
+     git config --global user.name “Vitali Shulha“
+
+     git config --global user.email “vitali_Shulha@epam.com"
+
+     git status
+     git add
+     git commit -m
+     git push
+     git log
+     git pull = git fetch + git merge
+     git gui& - committing using gui
+     gitk& - look for git history
+     git show
+     git ls-tree
