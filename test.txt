@@ -11,7 +11,3 @@ string8
 string9 index
 
 string10 commit
-
-string11 revert
-string12 revert
----------------
